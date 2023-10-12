@@ -48,6 +48,10 @@ const Signin = () => {
             type='password'
           />
         </div>
+        <Link to='/password-reset' className='underline'>
+          Forgot your password?
+        </Link>
+
         {error && <p className='text-red-500 py-2'>{error}</p>}
         <button className='border border-blue-500 bg-blue-600 hover:bg-blue-500 w-full p-4 my-2 text-white'>
           Sign In
